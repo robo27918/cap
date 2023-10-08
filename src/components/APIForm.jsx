@@ -1,5 +1,5 @@
  
-const APIForm = ({inputs, handleChange,onSubmit})=> {
+const APIForm = ({inputs, handleChange, onSubmit})=> {
     
     
 
@@ -34,9 +34,10 @@ const inputsInfo = [
                 <p> {inputsInfo[index]}</p>
                 </li>
             ))}
-            
             </form>
-            <button type="submit" className="button" onSubmit={onSubmit}>"Take that Pic! 🎞"</button>
+            <button type="submit" className="button" onClick={onSubmit}>"Take that Pic! 🎞"</button>  
+
+           
         </div>
 );}
 export default APIForm;
